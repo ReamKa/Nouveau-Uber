@@ -15,6 +15,5 @@ class TestView(APIView):
             "picture": "https://d1w2poirtb3as9.cloudfront.net/16ce502f4767f17b120e.png",
             "promo_code": "ubert4544ue",
             "rating": 5,
-            "activation_status": "active"
         }
         return Response(data)
